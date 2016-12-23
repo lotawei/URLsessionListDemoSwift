@@ -12,6 +12,8 @@
 		ED5B83EA1E03D96400F28DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B83E81E03D96400F28DC5 /* Main.storyboard */; };
 		ED5B83EC1E03D96400F28DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED5B83EB1E03D96400F28DC5 /* Assets.xcassets */; };
 		ED5B83EF1E03D96400F28DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED5B83ED1E03D96400F28DC5 /* LaunchScreen.storyboard */; };
+		ED5B83F71E03D9DB00F28DC5 /* DownloadData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B83F61E03D9DB00F28DC5 /* DownloadData.swift */; };
+		ED5B83F91E03DCA900F28DC5 /* CustomDownLoadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B83F81E03DCA900F28DC5 /* CustomDownLoadTask.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		ED5B83EB1E03D96400F28DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED5B83EE1E03D96400F28DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED5B83F01E03D96400F28DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED5B83F61E03D9DB00F28DC5 /* DownloadData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadData.swift; sourceTree = "<group>"; };
+		ED5B83F81E03DCA900F28DC5 /* CustomDownLoadTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDownLoadTask.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				ED5B83E41E03D96400F28DC5 /* AppDelegate.swift */,
 				ED5B83E61E03D96400F28DC5 /* ViewController.swift */,
+				ED5B83F61E03D9DB00F28DC5 /* DownloadData.swift */,
+				ED5B83F81E03DCA900F28DC5 /* CustomDownLoadTask.swift */,
 				ED5B83E81E03D96400F28DC5 /* Main.storyboard */,
 				ED5B83EB1E03D96400F28DC5 /* Assets.xcassets */,
 				ED5B83ED1E03D96400F28DC5 /* LaunchScreen.storyboard */,
@@ -136,8 +142,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5B83F91E03DCA900F28DC5 /* CustomDownLoadTask.swift in Sources */,
 				ED5B83E71E03D96400F28DC5 /* ViewController.swift in Sources */,
 				ED5B83E51E03D96400F28DC5 /* AppDelegate.swift in Sources */,
+				ED5B83F71E03D9DB00F28DC5 /* DownloadData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +307,7 @@
 				ED5B83F51E03D96400F28DC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
